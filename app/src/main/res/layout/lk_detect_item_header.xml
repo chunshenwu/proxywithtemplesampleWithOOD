@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="45.5dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lk_option_item_top"
+        >
+
+        <RelativeLayout
+            android:id="@+id/ivLayout"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/lk_detect_item_icon_good"
+                />
+
+            <!--<com.cleanmaster.ui.onekeyfixpermissions.circularprogressbar.CircularProgressBar-->
+            <!--android:id="@+id/progress_normal"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:indeterminate="true"-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_alignBottom="@+id/iv"-->
+            <!--android:layout_alignLeft="@+id/iv"-->
+            <!--android:layout_alignRight="@+id/iv"-->
+            <!--android:layout_alignTop="@+id/iv"-->
+            <!--app:cpb_color="@color/blue_below"-->
+            <!--app:cpb_max_sweep_angle="359"-->
+            <!--app:cpb_min_sweep_angle="1"-->
+            <!--app:cpb_rotation_speed="0.5"-->
+            <!--app:cpb_stroke_width="1dp"-->
+            <!--app:cpb_sweep_speed="0.5" />-->
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14.5dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/ivLayout"
+            android:text="Charge status:"
+            android:textStyle="bold"
+            android:gravity="center"
+            style="@style/detect_item_group_font"
+            />
+
+        <TextView
+            android:id="@+id/statusTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14.5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/titleTv"
+            android:text="Good"
+            android:textStyle="bold"
+            android:gravity="center"
+            style="@style/detect_item_group_status_font"
+            />
+
+        <RelativeLayout
+            android:id="@+id/seliv_layout"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            >
+            <ImageView
+                android:id="@+id/seliv"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="14.5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lk_detect_item_icon_up"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

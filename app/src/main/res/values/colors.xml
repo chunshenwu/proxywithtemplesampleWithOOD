@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="blue_scan_bg">#2D80E4</color>
+    <!--<color name="blue_one_btn_bg">#E24152</color>-->
+    <!--<color name="blue_one_btn_bg_pressed">#ED5565</color>-->
+    <color name="blue_one_btn_bg">#FF85C443</color>
+    <color name="blue_one_btn_bg_pressed">#E685C443</color>
+    <color name="detect_item_font_color">#9B9B9B</color>
+    <color name="scan_problemcard_btn_pressed_color">#F2F2F2</color>
+    <color name="result_page_bg">#E9EAEC</color>
+    <color name="scan_abnormal_bg">#ED5565</color>
+
+    <!--From CM Locker-->
+    <color name="new_style_white_FFFFFFFF">#FFFFFFFF</color>
+    <color name="category_horizontal_item_selector_gray">#8A000000</color>
+
+    <!--new loading-->
+    <color name="detect_item_status_font_color">#595959</color>
+
+</resources>
