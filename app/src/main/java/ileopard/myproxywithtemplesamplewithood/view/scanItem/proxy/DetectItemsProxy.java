@@ -143,7 +143,7 @@ public class DetectItemsProxy {
         mList.add(new ChargeMasterItem3(mContext));
         mList.add(new ChargeMasterItem4(mContext));
         mList.add(new ChargeMasterItem5(mContext));
-        mList.add(new ChargeMasterItem6(mContext));
+//        mList.add(new ChargeMasterItem6(mContext));
 //        mList.add(new BatteryInfoItem(mContext));
 //        mList.add(new ChargeItem(mContext));
     }

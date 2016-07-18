@@ -9,11 +9,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ileopard.myproxywithtemplesamplewithood.MainActivity">
 
-    <TextView
-        android:id="@+id/helloTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <!--<TextView-->
+        <!--android:id="@+id/helloTitle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Hello World!" />-->
 
     <RelativeLayout
         android:id="@+id/btnLyt"
@@ -35,7 +35,7 @@
         android:layout_below="@+id/helloTitle"
         android:layout_height="450dp"
         android:layout_width="match_parent"
-        android:background="@android:color/holo_green_dark"
+        android:background="@android:color/darker_gray"
         >
     </android.support.v7.widget.RecyclerView>
 

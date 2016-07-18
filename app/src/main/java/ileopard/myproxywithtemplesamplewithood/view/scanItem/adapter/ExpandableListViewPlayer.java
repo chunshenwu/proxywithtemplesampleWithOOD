@@ -5,6 +5,7 @@ import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.content.Context;
+import android.graphics.Color;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
@@ -202,6 +203,7 @@ public class ExpandableListViewPlayer {
 
             @Override
             public void onAnimationRepeat(Animator animation) {
+//                setBackgroundColor(new Color());
             }
         });
         return animMoveY;

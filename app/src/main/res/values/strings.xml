@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name">My proxywithtemplesampleWithOOD</string>
+    <string name="app_name">Template Demo</string>
 
-    <string name="lk_detect_item_charge_master_title">Charge Master:</string>
     <string name="lk_detect_item_charge_master_status">Off</string>
-    <string name="lk_detect_item_charge_master_title1">Charge Master:1</string>
-    <string name="lk_detect_item_charge_master_title2">Charge Master:2</string>
-    <string name="lk_detect_item_charge_master_title3">Charge Master:3</string>
-    <string name="lk_detect_item_charge_master_title4">Charge Master:4</string>
-    <string name="lk_detect_item_charge_master_title5">Charge Master:5</string>
-    <string name="lk_detect_item_charge_master_title6">Charge Master:6</string>
+    <string name="lk_detect_item_charge_master_title">Template Item:0</string>
+    <string name="lk_detect_item_charge_master_title1">Template Item:1</string>
+    <string name="lk_detect_item_charge_master_title2">Template Item:2</string>
+    <string name="lk_detect_item_charge_master_title3">Template Item:3</string>
+    <string name="lk_detect_item_charge_master_title4">Template Item:4</string>
+    <string name="lk_detect_item_charge_master_title5">Template Item:5</string>
+    <string name="lk_detect_item_charge_master_title6">Template Item:6</string>
 
 </resources>
